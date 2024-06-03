@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  transform: scale(1);
+}
+
+h1 {
+  font-size: 300px;
+  position: absolute;
+}
+
+footer {
+  display: flex;
+  margin-top: 30px;
+  gap: 5px;
+}
+
+.sphereContainer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.color:hover {
+  transform: scale(1.5);
+}
